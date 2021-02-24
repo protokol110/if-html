@@ -1,0 +1,39 @@
+.top-lane{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 40px;
+}
+.lane{
+    height: 4px;
+    width: 100px;
+    margin-top: 20px;
+    background: #F5BD41;
+    border-width: 0;
+}
+
+.img-supp{
+    margin-top: 275px;
+    margin-left: 135px;
+}
+.img-comm{
+    margin-left: 315px;
+}
+.img-book{
+    margin-left: 280px;
+}
+.img-finger{
+    margin-left: 275px;
+}
+.text-bot-lane{
+    display: flex;
+    justify-content: space-around;
+}
+.text-bot-lane div {
+    margin-top: 28px;
+    padding: 20px;
+}
+.text{
+    font-size: 25px;
+
+}
