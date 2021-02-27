@@ -1,0 +1,11 @@
+.capital-text{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: #383838;
+}
+.text{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #383838;
+    font-weight: 400;
+}
