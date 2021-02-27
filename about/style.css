@@ -35,3 +35,32 @@
 .img-supp{
     margin-right: 35px;
 }
+
+.back-color{
+    background: #10367C;
+    max-width: 1500px;
+    max-height: 650px;
+    padding-top: 120px;
+    margin-top: 50px;
+}
+.columns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-column-text-main, .second-column-text-main, .third-column-text-main{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.first-column-text, .second-column-text, .third-column-text{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.bottom-text{
+    margin-left: 105px;
+    margin-top: 65px;
+    padding-bottom: 100px;
+
+}
