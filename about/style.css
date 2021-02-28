@@ -1,4 +1,8 @@
 @import "fonts.css";
+body{
+    margin: 0;
+    padding: 0;
+}
 .main-div{
     max-width:1500px;
     max-height: 575px;
@@ -17,23 +21,33 @@
     background: #F5BD41;
     border-width: 0;
 }
-.image{
+.img-1 {
+    margin-left: 35px;
+}
+.img-2{
+    margin-left: 70px;
+}
+.img-3{
+    margin-left: 20px;
+}
+.img-4{
+    margin-left: 60px;
+}
+.tag-p{
+    margin-top: 40px;
+}
+
+.block{
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
-
-.text-bot-lane{
-    display: flex;
-    justify-content: space-around;
+.image{
+    align-self: auto;
 }
 
 .text-bot-lane div {
     margin-top: 50px;
-}
-
-.img-supp{
-    margin-right: 35px;
 }
 
 .back-color{
@@ -51,6 +65,12 @@
 .first-column-text-main, .second-column-text-main, .third-column-text-main{
     margin-bottom: 25px;
     font-size: 20px;
+}
+.second-column-text{
+    margin-right: 0px;
+}
+.third-column-text{
+    margin-right: 280px;
 }
 
 .first-column-text, .second-column-text, .third-column-text{
