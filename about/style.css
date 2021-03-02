@@ -1,11 +1,6 @@
 @import "fonts.css";
 body{
     margin: 0;
-    padding: 0;
-}
-.main-div{
-    max-width:1500px;
-    max-height: 575px;
 }
 .top-lane{
     display: flex;
@@ -52,8 +47,6 @@ body{
 
 .back-color{
     background: #10367C;
-    max-width: 1500px;
-    max-height: 650px;
     padding-top: 120px;
     margin-top: 50px;
 }
@@ -67,7 +60,7 @@ body{
     font-size: 20px;
 }
 .second-column-text{
-    margin-right: 0px;
+    margin-right: 0;
 }
 .third-column-text{
     margin-right: 280px;
