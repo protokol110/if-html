@@ -16,7 +16,7 @@ body{
     background: #F5BD41;
     border-width: 0;
 }
-.img-1 {
+/*.img-1 {
     margin-left: 35px;
 }
 .img-2{
@@ -30,7 +30,7 @@ body{
 }
 .tag-p{
     margin-top: 40px;
-}
+}*/
 
 .block{
     display: flex;
@@ -39,6 +39,7 @@ body{
 }
 .image{
     align-self: auto;
+    text-align: center;
 }
 
 .text-bot-lane div {
