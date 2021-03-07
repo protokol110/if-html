@@ -5,6 +5,8 @@
     src: url("fonts/Roboto-400-latin.woff2") format('woff2');
     src: url("fonts/Roboto-500-cyrilic.woff2") format('woff2');
     src: url("fonts/Roboto-500-latin.woff2") format('woff2');
+    src: url("fonts/Roboto-100-latin.woff2") format('woff.2');
+    src: url("fonts/Roboto-100-cyrilic.woff2") format('woff.2');
 }
 
 .capital-text{
@@ -27,10 +29,40 @@
 .first-column-text-main, .second-column-text-main, .third-column-text-main{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: white;
+    color: #FFFFFF;
 }
 
 .bottom-text{
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #FFFFFF;
 }
+
+.text-main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.text-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.text-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.side-text{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+

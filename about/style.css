@@ -1,7 +1,124 @@
 @import "fonts.css";
+
 body{
     margin: 0;
 }
+
+.main-lane{
+    display: flex;
+    justify-content: space-around;
+    align-self: baseline;
+}
+
+.side-text-1{
+    margin-left: 240px ;
+    margin-top: 100px;
+}
+
+.lane-under-logo{
+    display: flex;
+    height: 5px;
+    width: 50px;
+    margin-top: 0;
+    background: #F5BD41;
+    border-width: 0;
+    margin-left: 1055px;
+}
+
+.lane-logo{
+    margin: 0;
+}
+
+.text-check{
+    margin-left: 180px;
+}
+
+.main-part{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    border-radius: 10px ;
+    max-width: 1500px;
+    height: 65px;
+    background-color: #FFFFFF;
+    box-sizing: border-box ;
+    margin-top: 25px;
+
+}
+
+.text-4{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.block-2{
+    border-radius: 10px;
+    border: 10px #F5BD41;
+    margin-top: 20px;
+    width: 260px;
+    height: 65px;
+    margin-left: 240px;
+}
+
+.block-3{
+    margin-top: 20px;
+}
+
+.button-main{
+    height: 65px;
+    width: 200px;
+    background-color: #3077C6;
+    border-radius: 10px;
+    margin-left: 60px;
+    border-color: #3077C6;
+}
+
+.block-1 {
+    border: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 45px;
+    height: 30px;
+}
+
+.position-main-text{
+    margin-top: 200px;
+    margin-left: 180px;
+}
+
+.name-tag{
+    margin-left: 600px;
+}
+
+.top-padding{
+    margin-top: 67px;
+}
+
+.logo{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.icon-bot{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.icon-bot-1{
+    margin-right: 20px;
+}
+
+.back-img{
+    background-image: url('img/backgroundimg .svg');
+    background-repeat:no-repeat ;
+    width: auto;
+    border-style: solid;
+    background-position: center;
+    height: 1000px;
+}
+
 .top-lane{
     display: flex;
     justify-content: center;
@@ -16,21 +133,6 @@ body{
     background: #F5BD41;
     border-width: 0;
 }
-/*.img-1 {
-    margin-left: 35px;
-}
-.img-2{
-    margin-left: 70px;
-}
-.img-3{
-    margin-left: 20px;
-}
-.img-4{
-    margin-left: 60px;
-}
-.tag-p{
-    margin-top: 40px;
-}*/
 
 .block{
     display: flex;
