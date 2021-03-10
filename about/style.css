@@ -1,5 +1,7 @@
 @import "fonts.css";
-
+@media  {
+    
+}
 body{
     margin: 0;
 }
@@ -44,13 +46,6 @@ body{
     box-sizing: border-box ;
     margin-top: 25px;
 
-}
-
-.text-4{
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-size: 24px;
-    line-height: 28px;
 }
 
 .block-2{
