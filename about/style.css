@@ -61,16 +61,17 @@ body{
     border-style: solid;
     background-position: center;
     height: 1000px;
+    background-size: cover;
 }
 
 .main-lane{
     display: flex;
     justify-content: space-between;
     align-self: baseline;
-}
-.logo-blue{
     margin-left: 8.33%;
+    margin-right: 8.33%;
 }
+
 .side-text-1{
     margin-left: 140px ;
     margin-top: 100px;
@@ -80,8 +81,24 @@ body{
     margin-top: 67px;
 }
 
+.top-text-second,.icon-top-account,.icon-top-night{
+    margin-left: 20px;
+}
+
+.text-4{
+    box-sizing: border-box;
+}
+/*
+.text-4:hover{
+    padding-bottom: 8px;
+    border-bottom: 5px solid #F5BD41;
+}
+*/
+
 .text-top-lane:hover{
     border-bottom: 5px solid #F5BD41;
+    padding-bottom: 12px;
+    text-transform: capitalize;
 }
 
 .text-check{
@@ -89,6 +106,7 @@ body{
 }
 
 .tag-a{
+
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -96,10 +114,11 @@ body{
 .second-part{
     display: flex;
     justify-content: space-around;
-    margin-right: 8.33%;
 }
 
 .tag-a-first{
+    padding-bottom: 12px;
+    line-height: 12px;
     border-bottom: 5px solid #F5BD41;
 }
 
@@ -219,27 +238,31 @@ body{
     margin-right: 20px;
 }
 
-.top-lane{
-    display: flex;
-    justify-content: center;
-    margin-top: 120px;
-    font-size: 40px;
-}
 
-.lane{
-    height: 5px;
-    width: 100px;
-    margin-top: 20px;
-    background: #F5BD41;
-    border-width: 0;
-}
 
 .block-help{
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+    height: 250px;
 }
 
+.top-lane{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 40px;
+    position: relative;
+}
+.lane{
+    position: absolute;
+    background-color: #F5BD41;
+    border:0;
+    height: 5px;
+    width: 100px;
+    top: 30px;
+}
 .image{
     align-self: auto;
     text-align: center;
@@ -249,10 +272,61 @@ body{
     margin-top: 50px;
 }
 
+.block-different-hotels{
+    background-color: #EAF0F9;
+    width: auto;
+    height: 850px;
+    margin-top: 140px;
+}
+.div-text-hotels{
+    display: flex;
+    justify-content: center;
+}
+.text-block-hotels{
+    margin-top:  100px;
+    font-size: 40px;
+}
+
+.hotels-image{
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.text-hotels{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text-hotels-grey{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.icon-arrows{
+    position: absolute;
+    right: -5px;
+    top: 30%;
+}
+
+
+
+.image-1-hotels{
+    width: 295px;
+    height: 296px;
+}
+
+.image-2-hotels{
+    width: 297px;
+    height: 295px;
+}
+
 .back-color{
     background: #10367c;
     padding-top: 120px;
-    margin-top: 50px;
     width: auto;
 }
 .columns{
@@ -288,10 +362,195 @@ body{
 .logo-white-bottom{
     display: none;
 }
+@media only screen and (max-width: 720px){
+
+    .col-sm-1{
+        width: 8.33% ;
+    }
+
+    .col-sm-2{
+        width: 16.66% ;
+    }
+
+    .col-sm-3{
+        width: 25% ;
+    }
+
+    .col-sm-4{
+        width: 33.32% ;
+    }
+
+    .col-sm-5{
+        width: 41.65% ;
+    }
+
+    .col-sm-6{
+        width: 50% ;
+    }
+
+    .col-sm-7{
+        width: 58.31% ;
+    }
+
+    .col-sm-8{
+        width: 66.64% ;
+    }
+
+    .col-sm-9{
+        width: 74.97% ;
+    }
+
+    .col-sm-10{
+        width: 83.3% ;
+    }
+
+    .col-sm-11{
+        width: 91.63% ;
+    }
+
+    .col-sm-12 {
+        width: 100% ;
+    }
+
+    .logo-blue{
+        margin-top: 15px;
+        width: 125px;
+        height: 25px;
+    }
+    .position-main-text{
+        margin-top: 50px;
+    }
+    .text-top-lane{
+        display: none;
+    }
+    .top-padding{
+        margin-top: 14px;
+    }
+    .icon-top-account{
+        margin-top: 10px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .icon-top-night{
+        width: 16px;
+        height: 16px;
+    }
+
+    .menu-icon{
+        display: block;
+        margin-top: 15px;
+    }
+
+    .top-lane{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        font-size: 28px;
+    }
+    .block-help{
+        display: flex;
+        flex-direction: column;
+        line-height: 33px;
+        margin-top: 30%;
+    }
+
+    .text{
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .block-different-hotels{
+        height: 500px;
+        justify-content: center;
+
+
+    }
+    .text-block-hotels{
+        margin-top: 40px;
+    }
+
+    .block-3-hotels{
+        display: none;
+    }
+
+    .block-4-hotels{
+        display: none;
+    }
+
+    .text-hotels{
+        font-size: 12px;
+    }
+
+    .text-hotels-grey{
+        font-size: 12px;
+    }
+    .hotels-image{
+    margin-top: 40px;
+    justify-content: center;
+
+}
+
+    .block-1-hotels{
+    margin-right: 20px;
+}
+    .image-1-hotels{
+        width: 100%;
+        height: 155px;
+
+    }
+
+    .image-2-hotels{
+        width: 100%;
+        height: 155px;
+    }
+    .icon-arrows{
+        top: 20%;
+        right: 19%;
+    }
+
+    .first-column-text{
+        display: none;
+    }
+    .second-column-text{
+        display: none;
+    }
+    .third-column-text{
+        display: none;
+    }
+    .first-column-text-main{
+        text-decoration: underline;
+    }
+    .second-column-text-main{
+        text-decoration: underline;
+        margin-right: 40px;
+    }
+    .third-column-text-main{
+        text-decoration: underline;
+    }
+    .bottom-text{
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        padding-bottom: 40px;
+        margin-left: 0;
+    }
+    .columns{
+        display: flex;
+        justify-content: center ;
+        margin-top:  40px;
+
+    }
+    .logo-white-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 @media only screen and (max-width: 360px){
 
-    .col--sm-1{
+    .col-sm-1{
         width: 8.33% ;
     }
 
@@ -372,18 +631,42 @@ body{
         margin-top: 25px;
         font-size: 28px;
     }
-    .lane{
-        display: none;
-    }
     .block-help{
         display: flex;
         flex-direction: column;
         line-height: 33px;
     }
+
     .text{
         font-size: 15px;
         line-height: 18px;
     }
+    .block-3-hotels{
+        display: none;
+    }
+
+    .block-4-hotels{
+        display: none;
+    }
+
+    .text-hotels{
+        font-size: 12px;
+    }
+
+    .text-hotels-grey{
+        font-size: 12px;
+    }
+
+    .image-1-hotels{
+        width: 156px;
+        height: 155px;
+    }
+
+    .image-2-hotels{
+        width: 156px;
+        height: 155px;
+    }
+
     .first-column-text{
         display: none;
     }

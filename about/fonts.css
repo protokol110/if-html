@@ -71,3 +71,12 @@
     line-height: 28px;
 }
 
+.text-hotels{
+    font-family: 'Roboto', sans-serif;
+    color: #3077C6;
+}
+
+.text-hotels-grey{
+    font-family: 'Roboto', sans-serif;
+    color: #BFBFBF;
+}
