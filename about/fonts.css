@@ -80,3 +80,29 @@
     font-family: 'Roboto', sans-serif;
     color: #BFBFBF;
 }
+.text-button-destinations{
+    font-family: 'Roboto', sans-serif;
+    color: #383838;
+    font-size: 24px;
+}
+.text-image-destinations{
+    font-family: 'Roboto', sans-serif;
+    color: #3077C6;
+    font-size: 24px;
+
+}
+.text-button-image-destinations-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #3077C6;
+}
+.text-sign-up{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.text-button-sign-up{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #3077C6;
+}
