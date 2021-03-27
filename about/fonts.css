@@ -97,3 +97,68 @@
     font-size: 18px;
     color: #3077C6;
 }
+.text-sign-up{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.text-button-sign-up{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #3077C6;
+}
+.span-text-reviews{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3077C6;
+}
+.text-img-reviews{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    position: absolute;
+    left: 24px;
+    top: 16px;
+}
+.span-text-reviews-first{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3077C6;
+}
+.span-text-reviews-second{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3077C6;
+}
+.watch-reviews-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #bfbfbf;
+}
+.text-reviews-third-bottom{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #bfbfbf;
+}
+.text-reviews-third{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383838;
+}
+.text-sign-up-install{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #3077C6;
+}
