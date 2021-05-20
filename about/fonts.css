@@ -51,19 +51,10 @@
     line-height: 20px;
 }
 
-.text-button{
+.text-form{
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #FFFFFF;
-    font-size: 25px;
 }
 
-.side-text{
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-size: 18px;
-    line-height: 22px;
-}
 .text-4{
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;

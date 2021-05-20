@@ -174,6 +174,10 @@
         <path d="M26 1.4857L24.5144 0L13 11.5143L1.4857 0L0 1.4857L11.5143 13L0 24.5144L1.4857 26L13 14.4857L24.5144 26L26 24.5144L14.4857 13L26 1.4857Z" fill="#BFBFBF"/>
 
     </symbol>
+    <symbol id="loupe-icon" viewBox="0 0 16 16">
+        <path d="M11.4351 10.0629H10.7124L10.4563 9.81589C11.3528 8.77301 11.8925 7.4191 11.8925 5.94625C11.8925 2.66209 9.23042 0 5.94625 0C2.66209 0 0 2.66209 0 5.94625C0 9.23042 2.66209 11.8925 5.94625 11.8925C7.4191 11.8925 8.77301 11.3528 9.81589 10.4563L10.0629 10.7124V11.4351L14.6369 16L16 14.6369L11.4351 10.0629ZM5.94625 10.0629C3.66838 10.0629 1.82962 8.22413 1.82962 5.94625C1.82962 3.66838 3.66838 1.82962 5.94625 1.82962C8.22413 1.82962 10.0629 3.66838 10.0629 5.94625C10.0629 8.22413 8.22413 10.0629 5.94625 10.0629Z"
+              fill="currentColor"/>
+    </symbol>
 </svg>
 
 <header class="back-img">
@@ -202,48 +206,40 @@
     </div>
 
     <div  class="position-main-text">
-        <span class="text-main">Discover stays <br> to live, work or just relax</span>
+        <h1 class="text-main search-section__title">Discover stays <br> to live, work or just relax</h1>
     </div>
 
     <div class="side-text-1 ">
-        <span class="side-text col-3">Your destination or hotel name</span><span class="side-text text-check col-3">Check-in — Check-out</span>
     </div>
-    <form>
+    <div class="search-section">
 
-    <div class="main-part">
-        <div>
-        <label for="city-change" class="side-text"> Your destination or hotel name</label>
-        <input id="city-change" list="city" class="block-1 " placeholder="New York" required>
-
-        <datalist id="city">
-            <option>New York</option>
-            <option>Washington</option>
-            <option>Los Angeles</option>
-            <option>Minsk</option>
-
-        </datalist>
+    <form class="search-form text-form">
+        <div class="search-form__group destination">
+            <svg class="loupe-icon destination__loupe-icon">
+                <use href="#loupe-icon"/>
+            </svg>
+            <input type="text" name="destination" id="destination" class="destination__input" placeholder=" " required>
+            <label for="destination" class="destination__label">Your destination or hotel name</label>
         </div>
-
-        <div class="block-2">
-
-            <input type="date" class="first-date" id="check-in">
-            <label for="check-in" class="side-text"> check-in</label>
-            <input type="date" class="second-date" id="check-out">
-            <label for="check-out" class="side-text"> check-out</label>
-
+        <div class="search-form__group check">
+            <input type="date" class="date" name="check-in" id="check-in" placeholder=" " required>
+            <label for="check-in" class="check__label ">Check-in</label>
+            <input type="date" class="date" name="check-out" id="check-out" placeholder=" " required>
+            <label for="check-out" class="check__label">Check-out</label>
+            <label for="check-in" class="check__label check__label--desktop">Check-in — Check-out</label>
         </div>
-        <div class="block-3 col-3">
-            <label class="first-number-label" for="first-number" >Adults</label>
-            <input type="number" id="first-number" min="1">
-            <label class="second-number-label" for="second-number" >Children</label>
-            <input type="number" id="second-number" min="0">
-            <label class="third-number-label" for="third-number">Room</label>
-            <input type="number" id="third-number" min="1">
+        <div class="search-form__group ">
+            <input type="number" name="adults" id="adults" class="other-info__input" placeholder=" " min="1" required>
+            <label for="adults" class="other-info__label">Adults</label>
+            <span class="divisor"></span>
+            <input type="number" name="children" id="children" class="other-info__input" placeholder=" " min="0">
+            <label for="children" class="other-info__label">Children</label>
+            <span class="divisor"></span>
+            <input type="number" name="rooms" id="rooms" class="other-info__input" placeholder=" " min="1" required>
+            <label for="rooms" class="other-info__label">Rooms</label>
+            <label for="adults" class="other-info__label third-number-label">2 Adults — 0 Children — 1 Room</label>
         </div>
-        <div>
-            <button class="block-4-button " ><span class="text-button" >Search</span></button>
-        </div>
-    </div>
+        <input type="submit" value="Search" class="submit-btn">
     </form>
     <section class="icon-bot">
       <svg class="icon-bot-1" width="135" height="40">
@@ -253,6 +249,7 @@
         <use href="#apple-store"/>
     </svg>
     </section>
+    </div>
 </header>
 <div class="help-div">
 <div class="capital-text top-lane">
