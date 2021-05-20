@@ -264,7 +264,6 @@ input {
 
 
 
-
 .position-main-text{
     margin-top: 200px;
     margin-left: 8.33%;
@@ -353,18 +352,18 @@ input {
 
 .icon-arrows{
     position: absolute;
-    right: -5px;
+    right: -0.5%;
     top: 30%;
 }
 
 .image-1-hotels{
-    width: 295px;
-    height: 296px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .image-2-hotels{
-    width: 297px;
-    height: 295px;
+    width: 300px;
+    height: 300px;
 }
 
 .destinations{
@@ -406,11 +405,22 @@ input {
     margin-top: 65px;
 }
 .image-destinations-1{
+    max-width: 300px;
+    max-height: 300px;
     position: relative;
 }
-.image-1-destinations{
-    filter: brightness(50%)
+.image-destinations-1::before,.image-destinations-2::before,.image-destinations-3::before, .image-destinations-4::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(56, 56, 56, 0.4);
 }
+
+
 .button-image-destinations-1{
     position: absolute;
     width: 128px;
@@ -421,9 +431,25 @@ input {
     border-radius: 8px;
     top: 124px;
     left: 84px;
+    opacity: 0;
+
+}
+.button-image-destinations-1:hover{
+    position: absolute;
+    width: 128px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #3077C6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top: 124px;
+    left: 84px;
+    opacity: 1;
 
 }
 .image-destinations-2{
+    max-width: 300px;
+    max-height: 300px;
     position: relative;
 }
 .icon-arrows-destinations{
@@ -451,13 +477,22 @@ input {
     top: 25%;
     left: 24px;
 }
-.zxc{
+.main-part-sign-up{
     display: flex;
     flex-direction: column;
-    margin-left:135px ;
+    margin-left: 135px ;
 }
+
 .text-sign-up{
     margin-top: 50px;
+}
+.svg-logo-white{
+    display: none;
+}
+.image-destinations-3, .image-destinations-4{
+    max-height: 300px;
+    max-width: 300px;
+    position: relative;
 }
 
 .button-sign-up{
@@ -469,15 +504,89 @@ input {
     box-sizing: border-box;
     border-radius: 8px;
 }
-.text-sign-up{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+.reviews{
+    width: auto;
+    height: 1000px;
 }
-.text-button-sign-up{
-    font-family: 'Roboto', sans-serif;
+.div-text-reviews-main{
+    display: flex;
+    justify-content: center;
+    margin-top:120px;
+    margin-bottom: 105px;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.img-reviews-all{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+}
+.container-img-reviews{
+    width: 400px;
+    height: 760px;
+    background-color: #EAF0F9;
+}
+.div-img-reviews-1,.div-img-reviews-2,.div-img-reviews-3{
+    justify-content: center;
+    position: absolute;
+    top:352px; /*calc 400px-48px*/
+    height: 48px;
+    background-color: #383838;
+    width: 400px;
+    opacity: 70%;
+}
+.first-part-reviews{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 24px 16px 24px;
+}
+.second-part-reviews{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px 30px 24px;
+}
+.first-part-reviews-score{
+    display: flex;
+    justify-content: center;
+    width: 48px;
+    height: 32px;
+    background-color: #10367c;
+    border-radius: 8px;
+}
+.first-part-reviews-score-rectangle{
+    font-weight: 600;
     font-size: 18px;
-    color: #3077C6;
+    color: #ffffff;
+    margin-top: 4px;
+}
+.account-reviews{
+    margin-left: 29px;
+}
+.third-part-reviews{
+    display: flex;
+}
+.text-first-column-reviews{
+    margin: 24px 24px 0 24px;
+}
+
+.third-position-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.text-reviews-third-bottom{
+    margin-top: 8px;
+}
+.icon-arrow-reviews{
+    position: absolute;
+    right: -25px;
+    top: 23%;
+}
+.text-sign-up-install{
+    display: none;
 }
 .back-color{
     background: #10367c;
@@ -711,9 +820,6 @@ input {
         text-decoration: underline;
     }
 
-    .sign-up {
-        display: none;
-    }
 
     .image-destinations {
         justify-content: center;
@@ -731,6 +837,9 @@ input {
     .image-destinations-1 {
         margin-right: 16px;
     }
+    .image-destinations-1::before,.image-destinations-2::before{
+        position: relative;
+    }
 
     .image-1-destinations {
         filter: none;
@@ -745,7 +854,6 @@ input {
         display: none;
     }
 
-    main-part
     .text-button-destinations {
         font-size: 19px;
     }
@@ -920,5 +1028,76 @@ input {
         height: 50px;
         max-width: unset;
         width: 100%
+    }
+    .destinations{
+        height: 400px;
+    }
+    .reviews{
+        height: 900px;
+    }
+    .container2-reviews,.container3-reviews,.div-img-reviews-1{
+        display: none;
+    }
+    .container-img-reviews{
+        width: auto;
+    }
+    .img-reviews-all{
+        justify-content: center;
+        margin: 0;
+    }
+    .container1-reviews{
+        display: flex;
+        justify-content: center;
+    }
+    .adaptive-change{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sign-up{
+        margin-top: 130px;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .account-user{
+        display: none;
+    }
+    .svg-logo-white{
+        display: block;
+        background-color: #3077C6;
+        border-radius: 4px;
+        width: 58px;
+        height: 58px;
+        margin-top: 60px;
+    }
+    .cross-closure{
+        position: relative;
+        margin-top: 80px;
+        top: 0;
+        right: 0;
+    }
+    .button-sign-up{
+        display: none;
+    }
+    .text-sign-up{
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+        margin-top: 80px;
+    }
+    .main-part-sign-up{
+        margin: 0;
+    }
+    .second-part-sign-up{
+        display: flex;
+    }
+
+    .text-sign-up-install{
+        display: block;
+        margin-top: 80px;
     }
 }
